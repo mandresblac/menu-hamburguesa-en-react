@@ -1,0 +1,111 @@
+/* Contenedor general */
+.menu-container {
+  position: relative;
+}
+
+/* Botón hamburguesa en esquina superior izquierda */
+.hamburger {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 35px;
+  height: 30px;
+  background: none;
+  cursor: pointer;
+  z-index: 20;
+}
+
+/* barras del ícono de menu */
+.bar {
+  width: 35px;
+  height: 3px;
+  background: black;
+  margin: 6px 0;
+  transition: 0.4s ease;
+}
+
+/* Animación cuando el menú está abierto */
+.bar1-open {
+  transform: translateY(10px) rotate(45deg);
+  background-color: #fff;
+  transition: 0.4s ease;
+}
+
+.bar2-open {
+  opacity: 0;
+}
+
+.bar3-open {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+  transition: 0.4s ease;
+}
+
+/* Menú lateral oculto */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Oculto fuera de pantalla */
+  width: 250px;
+  height: 100vh;
+  background: #14182c;
+  padding-top: 70px;
+  transition: 0.3s ease;
+  z-index: 10;
+}
+
+/* Cuando el menú está abierto */
+.side-menu.open {
+  left: 0;
+}
+
+/* Estilos de los enlaces */
+.side-menu li {
+  margin: 20px 0;
+}
+
+.side-menu a {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  display: block;
+  font-weight: bold;
+
+  &:hover {
+    color: #6f729d;
+    transition: 0.3s ease;
+  }
+  
+}
+
+/* Responsive: menú convertido en barra horizontal en pantallas grandes */
+@media (width >= 768px) {
+  .hamburger {
+    display: none;
+  }
+  .side-menu {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    transition: none;
+  }
+  .side-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 30px;
+  }
+  .side-menu li {
+    margin: 5px;
+  }
+  .side-menu a {
+    padding-left: 0;
+    font-weight: normal;
+
+    &:active {
+      transform: scale(0.89);
+    }
+  }
+}
