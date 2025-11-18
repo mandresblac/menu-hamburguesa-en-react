@@ -1,5 +1,6 @@
 # Descripción del Repositorio
-- Este repositorio contiene un pequeño proyecto de un menu tipo hamburguesa responsivo que para tamaños de pantalla Mobile, tablets (y hasta 768 pixeles de ancho), se ubica en la parte superior izquierda de la pantalla, al hacer click sobre el boton se despliega el menu de izquierda a derecha mostrando varios links de navegación y al dar click en el boton X se cierra nuevamente. Tamaños de pantalla superiores a 768 pixeles el menu se ubica en la parte superior ocupando todo el ancho de pantalla y mostrando todos los links de navegacion.
+- Este repositorio contiene un pequeño proyecto de un menu tipo hamburguesa responsivo que para tamaños de pantalla Mobile, tablets (y hasta 768 pixeles de ancho), se ubica en la parte superior izquierda de la pantalla, al hacer click sobre el boton se despliega el menu de izquierda a derecha mostrando varios links de navegación y al dar click en el boton X se cierra nuevamente.
+Tamaños de pantalla superiores a 768 pixeles el menu se ubica en la parte superior ocupando todo el ancho de pantalla y mostrando todos los links de navegacion.
 
 ## Tecnologias utilizadas
 - Para la realizacion de este proyecto se utilizaron las siguientes tecnologias:
