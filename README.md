@@ -1,16 +1,24 @@
-# React + Vite
+# Descripción del Repositorio
+- Este repositorio contiene un pequeño proyecto de um menu tipo hamburguesa responsivo que para tamaños de pantalla Mobile, tablets (y hasta 768 pixeles de ancho), se ubica en la parte superior izquierda de la pantalla, al hacer click sobre el boton se despliega el menu de izquierda a derecha mostrando varios links de navegación y al dar click en el boton X se cierra nuevamente. Tamaños de pantalla superiores a 768 pixeles el menu se ubica en la parte superior ocupando todo el ancho de pantalla y mostrando todos los links de navegacion.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias utilizadas
+- Para la realizacion de este proyecto se utilizaron las siguientes tecnologias:
+  - [Css](https://developer.mozilla.org/es/docs/Web/CSS): Lenguaje de estilos para dar presentacion al proyecto web.
+  - [Javascript]([https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting/What_is_JavaScript)): Lenguaje de programación que permite hacer páginas web interactivas y dinámicas, funcionando junto a HTML y CSS para crear experiencias web completas. Se utiliza para tareas como animar elementos, validar formularios, cargar contenido sin recargar la página y crear juegos, entre otras cosas.
+  - [react](https://es.react.dev/): Es una biblioteca de JavaScript de código abierto para crear interfaces de usuario (UI) interactivas en aplicaciones web y móviles. Se enfoca en la creación de componentes reutilizables, lo que simplifica el desarrollo de UIs complejas.
 
-Currently, two official plugins are available:
+## Link del proyecto en la web
+- [Menu hamburguesa](https://menu-hamburguesa-responsive.netlify.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### - **Nota:**
+Para poder visualizar el proyecto en tamaño Mobile o tablet en un navegador web siga los siguientes pasos:
 
-## React Compiler
+**1.** Abra el navegador de su prefereencia y vaya al [link](https://menu-hamburguesa-responsive.netlify.app/) del proyecto.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+**2.** Una vez alli ingrese a las herramientas de desarrollador, para ello ubique el puntero del mouse en cualquier parte de la pantalla y de clck derecho, se desplegara un menu, vaya al ultimo item del menu llamado inspeccionar y de click en este, aparecera una ventana que dependiendo de la configuracion de su navegador puede estar al lado derecho, izquierdo o abajo. Otros atajos de teclado para que aparescan las herramientas de desarrollador son: Tecla F12 o la combinación de teclas Ctrl + Shift + I
 
-## Expanding the ESLint configuration
+**3.** En la parte superior izquierda de la nueva ventana ubique el boton Toggle device toolbar (Segundo icono de izquierda a derecha) tiene la figura de una laptop con un celular enpotrado en su interior y de click en él
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**4.** En la parte superior de la ventana puede empezar a ajustar los diferentes tamaños de dispositivos en los que desee ver el proyecto.
+
+**5.** Para salir de las herramients de desarrollador vaya a la esquina superior derecha y de click en la x, o utilice los mismos atajos de teclado del paso número tres.
