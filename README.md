@@ -15,9 +15,9 @@
 ## Nota
 Para poder visualizar el proyecto en tamaño Mobile o tablet en un navegador web siga los siguientes pasos:
 
-**1.** Abra el navegador de su prefereencia y vaya al [link](https://menu-hamburguesa-responsive.netlify.app/) del proyecto.
+**1.** Abra el navegador de su preferencia y vaya al [link](https://menu-hamburguesa-responsive.netlify.app/) del proyecto.
 
-**2.** Una vez alli ingrese a las herramientas de desarrollador, para ello ubique el puntero del mouse en cualquier parte de la pantalla y de clck derecho, se desplegara un menu, vaya al ultimo item del menu llamado inspeccionar y de click en este, aparecera una ventana que dependiendo de la configuracion de su navegador puede estar al lado derecho, izquierdo o abajo. Otros atajos de teclado para que aparescan las herramientas de desarrollador son: Tecla F12 o la combinación de teclas Ctrl + Shift + I
+**2.** Una vez allí ingrese a las herramientas de desarrollador, para ello ubique el puntero del mouse en cualquier parte de la pantalla y de clck derecho, se desplegara un menu, vaya al ultimo item del menu llamado inspeccionar y de click en este, aparecera una ventana que dependiendo de la configuracion de su navegador puede estar al lado derecho, izquierdo o abajo. Otros atajos de teclado para que aparescan las herramientas de desarrollador son: Tecla F12 o la combinación de teclas Ctrl + Shift + I
 
 **3.** En la parte superior izquierda de la nueva ventana ubique el boton Toggle device toolbar (Segundo icono de izquierda a derecha) tiene la figura de una laptop con un celular enpotrado en su interior y de click en él
 
